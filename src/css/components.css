@@ -1,5 +1,4 @@
 /* header */
-
 .header {
     background: var(--color-primary);
 }
@@ -21,7 +20,6 @@
 }
 
 /* sidenav */
-
 .sidenav {
     background: #fafbfc;
 }
@@ -43,6 +41,88 @@
 }
 
 /* content */
+.content {
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.col-wide {
+    grid-column: 1 / -1;
+}
+
+.introducao {
+    margin-bottom: calc(var(--gap-md) - 30px);
+}
+
+.img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imagem-1 {
+    grid-row: span 2;
+    align-items: end;
+}
+
+.imagem-2 {
+    align-self: end;
+}
+
+.destaque {
+    font-size: 0.875em;
+    color: var(--color-secondary);
+    max-width: 16em;
+    opacity: 1;
+}
+
+/* estilo content */
+.titulo-h1 {
+    color: var(--color-secondary);
+}
+
+.titulo-span {
+    color: var(--color-secondary);
+    font-style: italic;
+}
+
+/* características */
+.caracteristicas {
+    display: flex;
+    align-items: flex-start;
+}
+
+.caracteristicas-item {
+    width: 80px;
+    text-align: center;
+    background: var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+}
+
+.caracteristicas-item:first-child {
+    margin-right: 30px;
+}
+
+.numero, .rotulo {
+    display: block;
+    color: var(--color-secondary);
+}
+
+.numero {
+    font-size: 3em;
+    line-height: 1em;
+    margin: 10px auto;
+}
+
+.rotulo {
+    background: white;
+}
+
 
 
 /* anuncios */
@@ -51,7 +131,8 @@
     background: #fafbfc;
     display: grid;
     align-content: start;
-    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
     grid-gap: 30px;
 
 }

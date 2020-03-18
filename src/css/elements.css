@@ -2,7 +2,6 @@
 
 h1,h2,h3 {
     line-height: 1em;
-    font-weight: bold;
     font-family: 'Vollkorn', serif;
     text-transform: uppercase;
 }
@@ -22,7 +21,7 @@ h3 {
     font-size: 1.5em;
 }
 
-p, a {
+p, a, span {
     line-height: 1.5em;
     font-family: 'Vollkorn', serif;
     font-weight: 400;
