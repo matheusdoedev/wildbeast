@@ -41,3 +41,33 @@
 .sidenav-link:hover {
     background: var(--color-secondary);
 }
+
+/* content */
+
+
+/* anuncios */
+
+.anuncios {
+    background: #fafbfc;
+    display: grid;
+    align-content: start;
+    padding: 30px;
+    grid-gap: 30px;
+
+}
+
+.anuncios-item {
+    border-radius: 5px;
+}
+
+/* footer */
+
+.footer {
+    background: var(--color-primary);
+}
+
+.footer-text {
+    margin: 0 auto;
+    color: var(--color-support-1);
+    opacity: 1;
+}
