@@ -1,0 +1,43 @@
+/* header */
+
+.header {
+    background: var(--color-primary);
+}
+
+.brand {
+    width: 200px;
+}
+
+.nav-link {
+    color: var(--color-support-1);
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.nav-link:hover {
+    background: rgba(0,0,0,.5);
+    transition: 0.1s;
+}
+
+/* sidenav */
+
+.sidenav {
+    background: #fafbfc;
+}
+
+.sidenav-link {
+    display: block;
+    min-width: 60px;
+    max-width: 100px;
+    margin: 0 auto 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+    transition: .1s ease-out;
+}
+
+.sidenav-link:hover {
+    background: var(--color-secondary);
+}

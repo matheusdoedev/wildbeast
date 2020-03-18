@@ -13,7 +13,9 @@
 /* grid items */
 
 .header, .footer {
-    padding: var(--gap-sm) 0;
+    padding: var(--gap-sm) 30px;
+    display: grid;
+    grid-template-columns: 1fr auto;
 }
 
 .sidenav, .content, .anuncios {
