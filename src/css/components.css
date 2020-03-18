@@ -73,6 +73,10 @@
     align-self: end;
 }
 
+.imagem-3 {
+    margin-top: calc(var(--gap-md) - 30px);
+}
+
 .destaque {
     font-size: 0.875em;
     color: var(--color-secondary);
@@ -123,7 +127,43 @@
     background: white;
 }
 
+/* citacao */
+.citacao {
+      padding: 30px;
+      background: var(--color-primary);
+      border-radius: 5px;
+      margin-top: var(--gap-sm);
+      margin-bottom: var(--gap-sm);
+      box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+}
 
+.citacao-p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+    max-width: 30em;
+    margin: 0 auto;
+    color: var(--color-support-1);
+}
+
+/* atributos */
+.atributos {
+    padding: 30px;
+    background: var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+}
+
+.atributos-item {
+    color: var(--color-support-1);
+    font-size: 1.125em;
+    padding: 15px;
+    border-top: 2px solid #AF7BFB;
+}
+
+.atributos-item:first-child {
+    border-top: none;
+}
 
 /* anuncios */
 
@@ -134,7 +174,6 @@
     padding-right: 30px;
     padding-left: 30px;
     grid-gap: 30px;
-
 }
 
 .anuncios-item {
