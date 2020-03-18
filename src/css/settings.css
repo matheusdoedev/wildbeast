@@ -1,11 +1,11 @@
 /* colors */
 
 :root {
-    --color-primary: #EB8242;
-    --color-secondary: #B03C47;
+    --color-primary: linear-gradient(135deg, #8844ee, #B07DFB);
+    --color-secondary: #B07DFB;
     --color-support-1: #FFF;
-    --color-support-2: #F5F6FA;
-    --color-support-3: #2E2D2D;
+    --color-support-2: rgba(0, 0, 0, 0.7);
+    --color-support-3: ;
 }
 
 /* gaps */

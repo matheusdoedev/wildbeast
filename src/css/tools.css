@@ -1,0 +1,41 @@
+/* grid container */
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+    grid-template-areas: 
+    "header header header"
+    "sidenav content anuncios"
+    "footer footer footer"
+    ;
+}
+
+/* grid items */
+
+.header, .footer {
+    padding: var(--gap-sm) 0;
+}
+
+.sidenav, .content, .anuncios {
+    padding: var(--gap-lg) 0;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidenav {
+    grid-area: sidenav;
+}
+
+.content {
+    grid-area: content;
+}
+
+.anuncios {
+    grid-area: anuncios;
+}
+
+.footer {
+    grid-area: footer;
+}
