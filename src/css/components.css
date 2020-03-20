@@ -137,6 +137,12 @@
     opacity: 1;
 }
 
+@media (max-width: 600px) {
+    .content {
+        grid-template-columns: auto;
+    }
+}
+
 /* estilo content */
 .titulo-h1 {
     color: var(--color-secondary);
@@ -227,6 +233,7 @@
     padding-right: 30px;
     padding-left: 30px;
     grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .anuncios-item {
