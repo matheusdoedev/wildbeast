@@ -19,6 +19,15 @@
     transition: 0.1s;
 }
 
+@media (max-width: 760px) {
+    .header {
+        grid-template-columns: auto;
+    }
+    .brand {
+        margin-bottom: 20px;
+    }
+}
+
 /* sidenav */
 .sidenav {
     background: #fafbfc;
@@ -38,6 +47,50 @@
 
 .sidenav-link:hover {
     background: var(--color-secondary);
+}
+
+@keyframes seta {
+    from {
+        right: 30px;
+    }
+    to {
+        right: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    .sidenav {
+        position: relative;
+        padding-right: 30px;
+        padding-left: 30px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .sidenav::after {
+        content: '→';
+        position: absolute;
+        top: 5px;
+        right: 30px;
+        color: rgba(0,0,0,.3);
+        animation: seta .5s ease-in 0s infinite alternate;
+    }
+    
+    .sidenav-menu {
+        display: flex;
+    }
+
+    .sidenav-item {
+        flex: 1 0 60px;
+        margin-right: var(--gap-sm);
+    }
+
+    .sidenav-link {
+        margin-bottom: 0;
+    }
+
+
 }
 
 /* content */

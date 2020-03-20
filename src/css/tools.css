@@ -47,6 +47,16 @@
     padding: var(--gap-lg) 0;
 }
 
+@media (max-width: 760px) {
+    .header {
+        padding: var(--gap-md) 30px;
+    }
+
+    .sidenav {
+        padding: var(--gap-md) 0;
+    }
+}
+
 .header {
     grid-area: header;
 }

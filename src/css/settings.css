@@ -17,4 +17,12 @@
     --gap-lg: 128px;
 }
 
+@media (max-width: 760px) {
+    :root {
+        --gap-sm: 16px;
+        --gap-md: 32px;
+        --gap-lg: 64px;
+    }
+}
+
 /* fonts */
